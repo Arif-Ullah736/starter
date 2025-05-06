@@ -1,13 +1,9 @@
 import "./App.css";
-import Cards from "./components/Cards";
-import reviews from "./data.js";
+import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
-      <h1>Our Testimonials</h1>
-      <div className="border-line"></div>
-
-      <Cards reviews={reviews} />
+      <Form />
     </div>
   );
 }
